@@ -21,7 +21,7 @@ function initClock(length) {
     left: canvCenter.left,
     fill: 'rgb(50,50,50)',
     stroke: 'rgb(120,120,120)',
-    strokeWidth: 10,
+    strokeWidth: 15,
   });
   let hourHand = new fabric.Rect({
     height: length * 0.25,
@@ -91,4 +91,4 @@ const getTimeStamp = () => {
 
 let current = getTimeStamp().split(':');
 
-initClock(500);
+initClock(400);
